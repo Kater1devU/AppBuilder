@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import 'tailwindcss';
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FF2D78 #A81856;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #A81856;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #FF2D78;
+  border-radius: 2px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  opacity: 0.4;
+  filter: hue-rotate(300deg);
+}
+
+select option {
+  background: #E23D82;
+  color: #fff;
+}
